@@ -1,5 +1,5 @@
 {% set name = "adam-assist" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.4" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/adam_assist-{{ version }}.tar.gz
-  sha256: a29baf6e8bdd75cffb2afeb3be1d4bdf19fda43cc22375f8df436461de9adbab
+  sha256: caceb7ad7556f692b589fe198aa5ee374180b606b6ea46eefe705e802faf77fe
 
 build:
   noarch: python
